@@ -1,0 +1,11 @@
+Kodas
+>Atsisiunciamas
+>Interpretuojamas
+> DOM
+
+{
+    innterHTMl : 'HERO CONTENT'
+}
+
+defer atideda kodo vykdyma
+Scripta deti html dugne!

@@ -1,6 +1,7 @@
 {
   "name": "project-dom",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --host=localhost --port=2100",

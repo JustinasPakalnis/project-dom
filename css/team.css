@@ -1,0 +1,14 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+body {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+.member {
+  font-size: 1.3rem;
+}

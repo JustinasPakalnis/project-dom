@@ -14,4 +14,4 @@ if (sectionListDOM.length === 0) {
   sectionDOM.innerHTML = listHTML;
 }
 const emptySectionDOM = sectionListDOM[1];
-emptySectionDOM.innerHTML = "<div>Labas Rytas suri!</div>";
+// emptySectionDOM.innerHTML = "<div>Labas Rytas suri!</div>";

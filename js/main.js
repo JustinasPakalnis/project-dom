@@ -48,7 +48,7 @@ for (const log of title) {
   console.log(log.textContent);
   log.textContent = log.textContent
     .split(" ")
-    .map((w) => "Pakeista viskas")
+    .map((w) => w)
     .join(" ");
 }
 // function changeWord(working) {}

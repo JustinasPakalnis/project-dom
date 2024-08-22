@@ -25,28 +25,31 @@ console.clear();
 
 const sectionTitleDOM = document.getElementsByClassName("section-title");
 console.log(sectionTitleDOM);
-console.log(sectionTitleDOM.length);
+console.log(sectionTitleDOM[2]);
 
-console.log(sectionTitleDOM[0].textContent);
-console.log(sectionTitleDOM[0].innerText);
-const text1 = sectionTitleDOM[0].textContent;
-const text2 = sectionTitleDOM[0].innerText;
-console.log(text1);
-console.log(text2);
-console.log(text1.trim() === text2);
+// console.log(sectionTitleDOM.length);
+
+// console.log(sectionTitleDOM[0].textContent);
+// console.log(sectionTitleDOM[0].innerText);
+// const text1 = sectionTitleDOM[0].textContent;
+// const text2 = sectionTitleDOM[0].innerText;
+// console.log(text1);
+// console.log(text2);
+// console.log(text1.trim() === text2);
 // for (let i = 0; i < sectionTitleDOM.length; i++) {
 //   console.log(i, sectionTitleDOM[i]);
 // }
 for (const titleDOM of sectionTitleDOM) {
   titleDOM.textContent = capitalize(titleDOM.textContent);
 }
+const title = document.getElementsByClassName("title");
 
-/**
- * Dvieju skaiciu suma
- * @param {number} a Pirmasis demuo
- * @param {number} b Antrasis demuo
- * @returns {number} Suma
- */
-function sum(a, b) {
-  return a + b;
+for (const log of title) {
+  console.log(log.textContent);
+  log.textContent = log.textContent
+    .split(" ")
+    .map((w) => "Pakeista viskas")
+    .join(" ");
 }
+// function changeWord(working) {}
+// changeWord(title.textContent);

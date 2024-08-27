@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kubas</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/snake.css" />
+  </head>
+
+  <body>
+    <main>
+      <form class="form">
+        <p class="form-title">Gyvates pasaulio dydis</p>
+        <div class="form-content">
+          <div class="form-element">
+            <label for="">Plotis</label>
+            <input type="number" value="10" min="1" max="20" step="1" />
+            <p class="note">max: 15</p>
+          </div>
+          <div class="form-element">X</div>
+          <div class="form-element">
+            <label for="">Aukstis</label>
+            <input type="number" value="10" min="1" max="20" step="1" />
+            <p class="note">max: 15</p>
+          </div>
+          <div>
+            <button>Perpiešti</button>
+          </div>
+        </div>
+      </form>
+      <div id="world" class="world">
+        <img
+          class="snake"
+          style="top: 0px; left: 0px"
+          src="./snake sqr.png"
+          alt="snake"
+        />
+        <img
+          class="chicken"
+          style="top: 96px; left: 96px"
+          src="./chicken sqr.png"
+          alt="snake"
+        />
+      </div>
+    </main>
+    <script type="module" src="../js/header.js"></script>
+    <script type="module" src="../js/snake.js"></script>
+  </body>
+</html>

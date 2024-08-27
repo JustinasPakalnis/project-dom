@@ -1,0 +1,38 @@
+.calc {
+  display: flex;
+  gap: 1rem;
+}
+.calc > button {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.calc > div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.svieslente {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.ekranas {
+  padding: 20px;
+  display: flex;
+  font-size: 5rem;
+  gap: 60px;
+}
+.mygtukai {
+  padding: 20px;
+}
+.screen {
+  background-color: rgb(228, 253, 139);
+  width: 100px;
+  text-align: center;
+}
+.button1 {
+  width: 40px;
+  height: 40px;
+}

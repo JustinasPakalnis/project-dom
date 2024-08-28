@@ -4,7 +4,6 @@ const [widthDOM, heightDOM] = formDOM.querySelectorAll("input");
 const [widthNoteDOM, heighNotetDOM] = formDOM.querySelectorAll(".note");
 const worldDOM = document.getElementById("world");
 const skaiciuokle = document.getElementById("pagavau");
-console.log(skaiciuokle);
 
 const cellSize = 48;
 let snakeDOM = null;
@@ -110,7 +109,7 @@ window.addEventListener("keypress", (event) => {
   ) {
     pagavau++;
     skaiciuokle.innerText = pagavau;
-    console.log(pagavau);
+
     randomChickenPosition();
 
     chickenDOM.style.top = chickenPosition.y * cellSize + "px";
